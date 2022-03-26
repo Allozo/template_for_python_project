@@ -3,7 +3,7 @@
 Generate a project:
 
 ```
-cookiecutter https://gitlab.com/tinkoff-python-fintech-2022/template/template.git
+cookiecutter https://github.com/Allozo/template_for_python_project.git
 ```
 
 Then:
@@ -13,5 +13,4 @@ cd ./your-project
 git init
 
 make venv
-
 ```
