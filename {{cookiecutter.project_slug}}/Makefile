@@ -15,7 +15,7 @@ ifeq ($(OS), Windows_NT)
 	$(VENV)/Scripts/python -m pip install poetry
 	$(VENV)/Scripts/poetry install
 else
-	python3.9 -m venv $(VENV)
+	python3 -m venv $(VENV)
 	$(VENV)/bin/python -m pip install --upgrade pip
 	$(VENV)/bin/python -m pip install poetry
 	$(VENV)/bin/poetry install
